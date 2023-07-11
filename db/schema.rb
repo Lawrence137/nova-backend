@@ -43,7 +43,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_07_10_193655) do
   end
 
   create_table "loan_applications", force: :cascade do |t|
-    t.decimal "loanAmount", precision: 15, scale: 2, null: false
+    t.decimal "loan_amount", precision: 15, scale: 2, null: false
     t.string "passport", null: false
     t.string "kra_pin", null: false
     t.string "residence", null: false
